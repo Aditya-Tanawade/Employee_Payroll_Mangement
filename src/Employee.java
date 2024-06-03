@@ -20,9 +20,8 @@ abstract class Employee {
 
     @Override
     public String toString() {
-        return "Employee{" +
-                "empName='" + empName + '\'' +
-                ", empId=" + empId +
-                '}';
+
+
+        return "Employee [ Name=" +empName +", id ="+empId +",Salary="+calculateSalary()+"]";
     }
 }
